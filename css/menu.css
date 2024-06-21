@@ -1,0 +1,15 @@
+.image-1 .image{
+  min-height:16rem;
+}
+.image-3 .image{
+  max-height:27rem;
+}
+@media(min-width:30em){
+  .image-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .image-3 .image{
+    max-height: 100%;
+  }
+}
